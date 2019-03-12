@@ -1,0 +1,16 @@
+{{outlet}}
+
+<table>
+  <thead>
+    <tr>
+      <th>Common Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each dinosaurs as |dinosaur| }}
+      <tr>
+        {{dinosaur.name}}
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
